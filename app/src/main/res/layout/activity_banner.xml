@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <EditText
+        android:id="@+id/inputAdTag"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.01"
+        android:background="@layout/app_style"
+        android:ems="10"
+        android:hint="Enter Ad Tag"
+        android:scrollbars="vertical"
+        android:textSize="14sp"
+        tools:verticalScrollbarPosition="defaultPosition"/>
+
+    <Button
+        android:id="@+id/loadAd"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Load Ad"
+        android:textSize="16sp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
